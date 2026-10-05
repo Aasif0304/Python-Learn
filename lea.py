@@ -114,3 +114,49 @@
 # else:
 #     print("You are not ealigible")
 
+# -----------for loop---------
+# for i in "Apple":
+#     print(i)
+# -----------range and Table-------- 
+# for i in range(1,11):
+#     print(i,"x2=",i*2)
+    
+    # for and if 
+
+# for i in range (1,11):
+#     if(i%2==1):
+#         print(i)    
+
+# range for even and odd num  same formate
+
+# count = 0
+# for i in range (1,10):
+#     if(i%2==0):
+#         count=count+1
+# print(count)
+        # ----------
+
+
+
+# count = 0
+# for i in range(1, 101):
+#     if (i % 3 == 0 and i % 5 == 0):
+#         count = count + 1
+
+# print(count)
+
+
+# ------------while loop?
+# i=10
+# while(i<=200):
+#     print(i,end=",")
+#     i=i+10
+
+# factorial_________
+# i=6
+# fact=1
+# while(i>0):
+#     fact=fact*i
+#     i=i-1
+    
+# print(fact)  
