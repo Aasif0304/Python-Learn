@@ -160,3 +160,65 @@
 #     i=i-1
     
 # print(fact)  
+
+# -------Function 
+
+# def add():
+#     print("Addition")
+#     a=int(input("Enter a :"))
+#     b=int(input("Enter b :"))
+#     print(a+b)
+    
+# def sub():
+#     print("Subraction")
+#     c=int(input("Enter c :"))
+#     d=int(input("Enter d :"))
+#     print(c-d)
+    
+# def multi():
+#     print("Multiplication")
+#     e=int(input("Enter e :"))
+#     f=int(input("Enter f :"))
+#     print(e*f)
+    
+# def div():
+#     print("Division")
+#     g=int(input("Enter g :"))
+#     h=int(input("Enter h :"))
+#     print(g-h)
+
+    
+# add()  
+# sub() 
+# multi() 
+# div()
+
+# ---------exercise--------------
+# 1
+# def findevenorodd(num):
+#     if(num %2==0):
+#         print("Even number")
+#     else:
+#         print("odd number")
+        
+# a=int(input("Enter num :"))
+# findevenorodd(a)
+
+# 2
+
+# def findpassorfail(mark):
+#     if(mark>35):
+#         print("pass")
+#     else:
+#         print("fail")
+# a =int(input("Enter Mark :"))
+# findpassorfail(a)
+
+# 3
+
+# def printrange(r1,r2):
+#     for i in range(r1,r2):
+#         print(i)
+# a=int(input("Enter A :"))
+# b=int(input("Enter B :"))
+# printrange(a,b)
