@@ -125,24 +125,84 @@
         
         
         
-# ob1=c()
+# # ob1=c()
 
 
 
-# ----------polymorphism
+# # ----------polymorphism
 
-class Animal():
-    def sound(self):
-        print("Amimal Make Sound")
+# class Animal():
+#     def sound(self):
+#         print("Amimal Make Sound")
         
-class Dog(Animal):
-    def sound(self):
-        print("Dog Braking")
+# class Dog(Animal):
+#     def sound(self):
+#         print("Dog Braking")
         
-class Bird(Animal):
-    def sound(self):
-        print("Bird sing")
+# class Bird(Animal):
+#     def sound(self):
+#         print("Bird sing")
            
 
-a1=Bird()
-a1.sound()
+# a1=Bird()
+# a1.sound()
+
+# ------Exerciseing with in all
+# class person():
+#     def __init__(self,name):
+#         self.name=name
+
+# class student(person):
+#     def __init__(self,name,grade):
+#         super().__init__(name)
+#         self.grade=grade
+    
+#     def display(self):
+#         print(self.name,self.grade)
+        
+# s1=student("Anvar","A")
+# s1.display()
+
+# ----E2----\
+    
+# class vehical():
+#     def start(self):
+#         print("vehical started")
+        
+# class car(vehical):
+#     def start(self):
+#         print("car started")
+# c=car()
+# c.start()
+
+# --E3--------
+
+# class Employee():
+#     def __init__(self,name,salary):
+#         self.name=name
+#         self.salary=salary
+
+# class Manager(Employee):
+#     def __init__(self,name,salary,department):
+#         super().__init__(name,salary)
+#         self.department=department
+        
+#     def manager(self):
+#         print(self.name,self.salary,self.department)
+        
+# e1=Manager("Asif","35000","Software Developer")
+# e1.manager()
+        
+# ENCAPSULATION-----
+
+class Project():
+    def __init__(self):
+        self.__companyname="google"   
+        
+    def companyname(self):
+        print(self.__companyname)
+        
+c1=Project()
+c1.companyname()
+
+        
